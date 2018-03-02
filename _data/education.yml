@@ -1,11 +1,11 @@
--   qualification: BSc(Hons) Computer Programming
-    school: Oxford
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Data Structures
+    school: MiraCosta College
+    description: Learned efficient algorithms and properly designed data structures to develop effective solutions to common programming problems. Topics include searching, sorting, hashing, algorithm analysis, object-oriented design, collections, lists, stacks, queues, trees, sets, dictionaries, and graphs.
 
--   qualification: A-Level Computing
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Discrete Mathematics
+    school: MiraCosta College
+    description: Covered boolean logic, methods of proof, number theory, sets, counting, relations, recursion, recurrence relations, Boolean algebra, graphs, trees, and networks. Topics are illustrated with applications to computer science, including design and analysis of algorithms, undecidability, program correctness, and digital logic design.
 
--   qualification: A-Level Maths
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Computer Architecture and Assembly Language
+    school: MiraCosta College
+    description: Learned the fundamental physical and structural concepts of assembly language programming. Topics include machine architecture, memory addressing, input/output, interrupts, control structures, compiling, and linking.
