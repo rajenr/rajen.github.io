@@ -19,7 +19,7 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Experience</h3>
+<h3 class="section-title">Professional Experience</h3>
 <dl class="experience">
     {% for job in site.data.jobs %}
         <dt>
@@ -29,6 +29,20 @@
         </dt><!--
         --><dd>
             <p>{{ job.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Volunteer Experience</h3>
+<dl class="experience">
+    {% for volunteer in site.data.volunteering %}
+        <dt>
+            <p class="title">{{ volunteering.title }}</p>
+            <p class="company">{{ volunteering.company }}</p>
+            <p class="period">{{ volunteering.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ volunteering.description }}</p>
         </dd>
     {% endfor %}
 </dl>
