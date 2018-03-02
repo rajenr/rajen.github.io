@@ -6,14 +6,14 @@ email: email@domain.com
 description: Jekyll Resume is a mega simple resume theme for Jekyll.
 baseurl: ""
 url: "https://rajenr.github.io"
-name: Matt Couchman
-job: front end engineer
-location: Birmingham, UK
-languages: HTML, CSS and Javascript
+name: Reesha Rajen
+job: student
+location: San Diego, CA
+languages: Java, C++, and C#
 twitter_username: mattcouchman
 github_username:  rajenr
 codepen_username:  mattcouchman
-email_address: some@email.com
+email_address: rajen.reese@gmail.com
 
 # Build settings
 markdown: kramdown
