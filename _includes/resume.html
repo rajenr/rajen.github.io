@@ -47,6 +47,34 @@
     {% endfor %}
 </dl>
 
+<h3 class="section-title">Extracurriculars</h3>
+<dl class="experience">
+    {% for extracurricular in site.data.extracurriculars %}
+        <dt>
+            <p class="title">{{ extracurricular.title }}</p>
+            <p class="company">{{ extracurricular.company }}</p>
+            <p class="period">{{ extracurricular.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ extracurricular.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Awards and Honors</h3>
+<dl class="experience">
+    {% for award in site.data.awards %}
+        <dt>
+            <p class="title">{{ award.title }}</p>
+            <p class="company">{{ award.company }}</p>
+            <p class="period">{{ award.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ award.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
 <h3 class="section-title">Notable Courses</h3>
 <dl class="education">
     {% for qualification in site.data.education %}
