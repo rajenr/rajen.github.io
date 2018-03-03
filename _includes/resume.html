@@ -51,11 +51,11 @@
 <dl class="experience">
     {% for extracurricular in site.data.extracurriculars %}
         <dt>
-            <p align=center>{{ extracurricular.qualification }}</p>
-            <p align=center>{{ extracurricular.school }}</p>
-            <p align=center>{{ extracurricular.period }}</p>
         </dt><!--
         --><dd>
+            <p class="title">{{ extracurricular.qualification }}</p>
+            <p class="company">{{ extracurricular.school }}</p>
+            <p class="period">{{ extracurricular.period }}</p>
             <p>{{ extracurricular.description }}</p>
         </dd>
     {% endfor %}
