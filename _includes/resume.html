@@ -37,8 +37,8 @@
 <dl class="experience">
     {% for volunteer in site.data.volunteering %}
         <dt>
-            <p class="title">{{ volunteer.title }}</p>
-            <p class="company">{{ volunteer.company }}</p>
+            <p class="title">{{ volunteer.qualification }}</p>
+            <p class="company">{{ volunteer.school }}</p>
             <p class="period">{{ volunteer.period }}</p>
         </dt><!--
         --><dd>
@@ -51,8 +51,8 @@
 <dl class="experience">
     {% for extracurricular in site.data.extracurriculars %}
         <dt>
-            <p class="title">{{ extracurricular.title }}</p>
-            <p class="company">{{ extracurricular.company }}</p>
+            <p class="title">{{ extracurricular.qualification }}</p>
+            <p class="company">{{ extracurricular.school }}</p>
             <p class="period">{{ extracurricular.period }}</p>
         </dt><!--
         --><dd>
