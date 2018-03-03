@@ -47,20 +47,6 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Extracurriculars</h3>
-<dl class="experience">
-    {% for extracurricular in site.data.extracurriculars %}
-        <dt>
-        </dt><!--
-        --><dd>
-            <p class="title">{{ extracurricular.qualification }}</p>
-            <p class="company">{{ extracurricular.school }}</p>
-            <p class="period">{{ extracurricular.period }}</p>
-            <p>{{ extracurricular.description }}</p>
-        </dd>
-    {% endfor %}
-</dl>
-
 <h3 class="section-title">Awards and Honors</h3>
 <dl class="experience">
     {% for award in site.data.awards %}
@@ -88,3 +74,32 @@
         </dd>
     {% endfor %}
 </dl>
+
+<h3 class="section-title">Extracurriculars</h3>
+<dl class="experience">
+    {% for extracurricular in site.data.extracurriculars %}
+        <dt>
+        </dt><!--
+        --><dd>
+            <p class="title">{{ extracurricular.qualification }}</p>
+            <p class="company">{{ extracurricular.school }}</p>
+            <p class="period">{{ extracurricular.period }}</p>
+            <p>{{ extracurricular.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Languages</h3>
+<dl class="experience">
+    {% for language in site.data.languages %}
+        <dt>
+        </dt><!--
+        --><dd>
+            <p class="title">{{ language.qualification }}</p>
+            <p class="company">{{ language.school }}</p>
+            <p class="period">{{ language.period }}</p>
+            <p>{{ language.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
