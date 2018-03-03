@@ -1,9 +1,12 @@
 <h3 class="section-title">About Me</h3>
 <dl class="experience">
-    <p>I am a computer science & engineering student at MiraCosta College working towards transferring to a four-year institution. I have a strong background in mathematics and the fine arts, so I strive to create a world in which I can utilize both. I currently serve as a mathematics and computer science tutor, a supplemental instructional leader for precalculus, and the president of WiCS (Women in Computer Science).</p>
+    <p>I am a computer science & engineering student at MiraCosta College working towards transferring to a four-year institution. I have a strong background in mathematics and the fine arts, so I strive to create a world in which I can utilize both. Full Stack Developer in the making.</p>
 </dl>
 
-<hr>
+<footer class="footer">
+    <h3 class="section-title">About Me</h3>
+    <p class="footer__subtitle">I am a computer science & engineering student at MiraCosta College working towards transferring to a four-year institution. I have a strong background in mathematics and the fine arts, so I strive to create a world in which I can utilize both. Full Stack Developer in the making.</p>
+</footer>
 
 <h3 class="section-title">Projects</h3>
 <dl class="experience">
@@ -71,20 +74,6 @@
         </dt><!--
         --><dd>
             <p>{{ qualification.description }}</p>
-        </dd>
-    {% endfor %}
-</dl>
-
-<h3 class="section-title">Extracurriculars</h3>
-<dl class="experience">
-    {% for extracurricular in site.data.extracurriculars %}
-        <dt>
-        </dt><!--
-        --><dd>
-            <p class="title">{{ extracurricular.qualification }}</p>
-            <p class="company">{{ extracurricular.school }}</p>
-            <p class="period">{{ extracurricular.period }}</p>
-            <p>{{ extracurricular.description }}</p>
         </dd>
     {% endfor %}
 </dl>
