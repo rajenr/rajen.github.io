@@ -8,12 +8,12 @@ baseurl: ""
 url: "https://rajenr.github.io"
 name: Reesha Rajen
 job: student
-location: San Diego, CA
-languages: Java, C++, and C#
+location: La Jolla, CA
+languages: Java, C++, Python, C#
 twitter_username: mattcouchman
 github_username:  rajenr
 codepen_username:  mattcouchman
-email_address: rajen.reese@gmail.com
+email_address: rrajen@ucsd.edu
 
 # Build settings
 markdown: kramdown
